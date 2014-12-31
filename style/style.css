@@ -11,7 +11,7 @@ h1,h2,h3{font-family: 'Oxygen', sans-serif;}
 .slider .carousel .carousel-control.right,.slider .carousel .carousel-control.left{background:none;}
 .slider .carousel .item img{height:100%; width:100%;}
 .slider .carousel .item{height:100%; width:100%;}
-.welcomeText{margin-top:50px; font-family: 'Alegreya Sans SC', sans-serif;}
+.welcomeText h1{font-family: 'Alegreya Sans SC', sans-serif; text-transform: capitalize; font-style: italic;}
 .circle{background:#3e7e80; border-radius:50%; font-size:30px; font-weight:bold; line-height:0px; padding:30px 20px; color:#fff; width:60px; margin:10px auto;}
 .steps h3{}
 .steps div{text-align:center}
@@ -32,7 +32,7 @@ letter-spacing: 3px;}
 .navbar-default .navbar-nav>li>a{color:#fff;}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{color:#ffff67}
 .panel-primary{border-color:#3e7e80}
-.panel-primary>.panel-heading{background-color:#3e7e80; border-color:#3e7e80}
+.panel-primary>.panel-heading,.list-group-item.active{background-color:#3e7e80; border-color:#3e7e80}
 .footer a {color:#ffff67;}
 .footer input,.footer textarea, .footer button{background-color:transparent; color:#ffff67; border-color:#ffff67; border-style:dashed}
 .footer button{margin-top:15px;background-color:#ffff67; color:#000}
@@ -43,8 +43,17 @@ letter-spacing: 3px;}
 .mission h2{margin-top:0;}
 .page-title{background:url(../images/slider-bg.jpg) no-repeat center; background-size:cover; height:100px}
 .page-title h1{text-align:right; color:#fff; line-height:100px; margin:0;}
-body > .container{margin-top:20px;}
+body > .container{margin-top:50px; margin-bottom:50px;}
+.container h2.title{margin-bottom:20px;}
+.container h2.title:first-child{margin-top:0;}
 iframe{border:none;}
+
+a[aria-expanded*='true'] {background-color:#3e7e80; border-color:#3e7e80; color:#fff}
+.panel{border:0px; margin:0px;}
+.panel-body{padding:0;}
+a.list-group-item:hover, a.list-group-item:focus{background-color:#3e7e80; border-color:#3e7e80; color:#fff}
+.MsoNormalTable h3{text-transform: uppercase;
+margin: 5px 0; text-align:center}
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 	.slider-home {height:300px;}
